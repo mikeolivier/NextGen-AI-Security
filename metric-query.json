@@ -1,0 +1,14 @@
+[
+  {
+    "Id": "allowed",
+    "MetricStat": {
+      "Metric": {
+        "Namespace": "NextGen/AISecurity",
+        "MetricName": "AllowedRequests"
+      },
+      "Period": 300,
+      "Stat": "Sum"
+    },
+    "ReturnData": true
+  }
+]

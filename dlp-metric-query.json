@@ -1,0 +1,24 @@
+[
+  {
+    "Id": "dlp",
+    "MetricStat": {
+      "Metric": {
+        "Namespace": "NextGen-AI-Security",
+        "MetricName": "SecurityEvents",
+        "Dimensions": [
+          {
+            "Name": "Control",
+            "Value": "dlp"
+          },
+          {
+            "Name": "Action",
+            "Value": "BLOCK"
+          }
+        ]
+      },
+      "Period": 300,
+      "Stat": "Sum"
+    },
+    "ReturnData": true
+  }
+]

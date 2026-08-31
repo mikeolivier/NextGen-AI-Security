@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Secrets / credentials
+.env
+.env.*
+*.pem
+*.key
+credentials
+credentials.*
+.aws/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Generated Lambda deployment packages
+*.zip
+
+# Generated Lambda deployment packages
+*.zip
